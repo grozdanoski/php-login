@@ -24,7 +24,7 @@ if($_POST['submit']){
         header('Location: user.php');
     }
     else{
-        echo "Incorrect login.";
+        echo "Podatocite koi gi vnesovte ne pogresni.";
     }
 
 }
@@ -36,17 +36,17 @@ if($_POST['submit']){
 <html>
 
 <head>
-    <title>Login Page</title>
+    <title>Najava</title>
 </head>
 
 <body>
 
-<h1>PHP Login formular</h1>
+<h1>Ve molime najavete se</h1>
 
 <form method="post" action="index.php">
-    <input type="text" placeholder="Username" name="username"><br/>
-    <input type="password" placeholder="Password" name="password"><br/>
-    <input type="submit" name="submit" value="Log In">
+    <input type="text" placeholder="Korisnicko ime" name="username"><br/>
+    <input type="password" placeholder="Lozinka" name="password"><br/>
+    <input type="submit" name="submit" value="Najava">
 </form>
 
 </body>
