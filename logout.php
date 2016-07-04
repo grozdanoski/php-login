@@ -9,10 +9,10 @@ session_destroy();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Log out page</title>
+    <title>Izlez</title>
 </head>
 
 <body>
-<a href="index.php">Click to here to return to the login page.</a>
+<a href="index.php">Kliknete tuka za da se vratite na stranata za najavuvanje.</a>
 </body>
 </html>
