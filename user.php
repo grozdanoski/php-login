@@ -21,12 +21,12 @@ else{
 
 <body>
 
-<h1>Hello there <?php echo $username; ?>! You have sucessfully logged in.</h1>
+<h1>Zdravo <?php echo $username; ?>! Uspesno se najavivte.</h1>
 
 <br/><br/>
 
 <form action="logout.php">
-    <input type="submit" value="Log out">
+    <input type="submit" value="Izlez">
 </form>
 
 </body>
